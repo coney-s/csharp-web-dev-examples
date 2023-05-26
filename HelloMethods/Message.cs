@@ -14,7 +14,10 @@ namespace HelloMethods
             {
                 return "Bonjour le monde";
             }
-            else
+            else if (lang.Equals("tk"))
+            {
+                return "Selam Dünya";
+            } else
             {
                 return "Hello World";
             }
